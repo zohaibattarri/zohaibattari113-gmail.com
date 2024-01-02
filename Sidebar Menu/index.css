@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+
+    background-color: white;
+    box-shadow: 0px 0px 10px -1px rgba(0,0,0,0.75);
+    /* border: 2px solid black; */
+    /* padding-top: 25px; */
+    /* border-left: 50%; */
+    /* margin: 50px; */
+    /* padding: 5px;
+    padding-right: 5px; */
+    border-radius: 8px;
+    /* padding-inline-end:5%; */
+    padding: 0px 20px;
+
+}
+
+.zohaib {
+    padding-top: 50px;
+}
+
+
+.mancontainer {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+body {
+    background-color: aliceblue;
+    font-family: 'Poppins', sans-serif;
+}
+
+.links {
+    padding: 10px 30px 10px 10px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+}
+
+.links:hover {
+    background-color: #4071f4;
+    color: white;
+}
+
+.heading {
+    padding-bottom: 40px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.mb {
+    margin-bottom: 40px;
+}
+
+.title-heading{
+    position: relative;
+    padding-left: 40px;
+}
+
+.title-heading .line{
+    width: 15px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #4071f4;
+    border-radius: 10px;
+}
+
+.title-heading h1{
+    font-size: 70px;
+}
+
+.clr-blue{
+    color: #4071f4;
+}
